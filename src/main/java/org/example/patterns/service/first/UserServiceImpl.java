@@ -1,9 +1,5 @@
 package org.example.patterns.service.first;
 
-/**
- * Real implementation that simulates a slow external data source.
- * DO NOT MODIFY THIS CLASS.
- */
 public class UserServiceImpl implements UserService {
 
     @Override

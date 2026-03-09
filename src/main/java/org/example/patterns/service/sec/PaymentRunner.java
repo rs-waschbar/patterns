@@ -2,7 +2,7 @@ package org.example.patterns.service.sec;
 
 import java.math.BigDecimal;
 
-public class StrategyInterviewRunner {
+public class PaymentRunner {
 
     public static void main(String[] args) {
 

@@ -1,6 +1,6 @@
 package org.example.patterns.service.first;
 
-public class ProxyInterviewRunner {
+public class UserServiceRunner {
 
     public static void main(String[] args) {
 

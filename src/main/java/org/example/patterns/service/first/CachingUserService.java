@@ -1,7 +1,7 @@
 package org.example.patterns.service.first;
 
 
-public class CachingUserServiceProxy {
+public class CachingUserService {
 
     // TODO: implement
 }

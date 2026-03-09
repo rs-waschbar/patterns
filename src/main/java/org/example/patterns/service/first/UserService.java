@@ -8,7 +8,7 @@ package org.example.patterns.service.first;
  * that fetches user data from a slow external source (simulated with Thread.sleep).
  *
  * YOUR TASK:
- * Implement the {@link CachingUserServiceProxy} class that:
+ * Implement the {@link CachingUserService} class that:
  *   1. Implements the {@link UserService} interface.
  *   2. Wraps an instance of {@link UserServiceImpl} (passed via constructor).
  *   3. Caches the results of {@code findUserById} — if the same id is requested again,
@@ -23,7 +23,7 @@ package org.example.patterns.service.first;
  * Bonus:
  *   - Make the proxy thread-safe.
  *
- * See {@link ProxyInterviewRunner#main} to verify your solution.
+ * See {@link UserServiceRunner#main} to verify your solution.
  */
 public interface UserService {
 
